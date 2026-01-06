@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Site</title>
+  <!DOCTYPE html>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #fac020;
+      background: linear-gradient(180deg, rgba(250, 192, 32, 1) 0%, rgba(237, 120, 36, 1) 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .Mess-text {
+      text-align: center;
+      font-size: 60px;
+      opacity: 0.8;
+      color: rgb(0, 0, 0);
+      font-family: 'Changa One', sans-serif;
+    }
+
+    img.logo {
+      width: 200px;
+      max-width: 60vw;
+      margin-bottom: 100px;
+    }
+
+    video.animated {
+      width: 700px;
+      max-width: 40vw;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .icon-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .icon-row img {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .icon-row img:hover {
+      transform: scale(1.15);
+    }
+
+    .footer-text {
+      position: fixed;
+      bottom: 10px;
+      text-align: center;
+      width: 100%;
+      font-size: 14px;
+      opacity: 0.8;
+      color: white;
+    }
+
+    /* Responsive tweaks for phones */
+    @media (max-width: 600px) {
+      img.logo {
+        width: 150px;
+      }
+      video.animated {
+        width: 300px;
+      }
+      .icon-row img {
+        width: 32px;
+        height: 32px;
+      }
+      .footer-text {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="ColoredLogo_Transparent.png" class="logo" alt="Logo">
+
+  <div class="Mess-text">
+    Soon.
+  </div>
+
+  <video class="animated" autoplay loop muted playsinline>
+    <source src="animatedPardon.webm" type="video/webm">
+  </video>
+
+  <!-- Icon links under the video -->
+  <div class="icon-row">
+    <a href="https://www.youtube.com/@Scrungle-co" target="_blank">
+      <img src="socialmedia.1.png" alt="YouTube">
+    </a>
+    <a href="https://www.tiktok.com/@scrungle.co" target="_blank">
+      <img src="socialmedia.2.png" alt="TikTok">
+    </a>
+    <a href="https://bsky.app/profile/scrungle-co.bsky.social" target="_blank">
+      <img src="socialmedia.3.png" alt="blueSky">
+    </a>
+    <a href="https://www.tumblr.com/blog/scrungledotco" target="_blank">
+      <img src="socialmedia.4.png" alt="Tumblrr">
+    </a>
+    <a href="https://www.instagram.com/scrungleco/" target="_blank">
+      <img src="socialmedia.5.png" alt="Instagram">
+    </a>
+    <a href="https://x.com/Scrungleco" target="_blank">
+      <img src="socialmedia.6.png" alt="Twitter">
+    </a>
+  </div>
+
+  <!-- Footer text at the bottom -->
+  <div class="footer-text">
+    © 2025 Scrungle.Co — All Rights Reserved • Made with spite ♡
+  </div>
+
+</body>
+</html>
+
+
+
