@@ -266,24 +266,3 @@ body {
   
   text-align: center;
 }
-<<<<<<< HEAD
-=======
-
-#site-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-
-  width: 100%;
-  padding: 12px 0;
-
-  text-align: center;
-  font-size: 0.9rem;
-  color: white;
-
-  background: rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(6px);
-
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
-}
->>>>>>> 300e3ff905567f2e761e188408a67f9ec09c0cf3
