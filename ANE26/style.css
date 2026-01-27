@@ -4,13 +4,13 @@ html, body {
 }
 @font-face {
   font-family: "CastTitleFont";
-  src: url("/scrungle-site/ANE26/fonts/Saddlebag.ttf") format("truetype");
+  src: url("/ANE26/fonts/Saddlebag.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "DescriptionTitleFont";
-  src: url("/scrungle-site/ANE26/fonts/duality.otf") format("truetype");
+  src: url("/ANE26/fonts/duality.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
