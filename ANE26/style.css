@@ -266,3 +266,32 @@ body {
   
   text-align: center;
 }
+.footer-text {
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.icon-row {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon-row img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.icon-row img:hover {
+  transform: scale(1.15);
+}
