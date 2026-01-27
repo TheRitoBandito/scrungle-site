@@ -1,0 +1,268 @@
+html, body {
+  height: 100%;
+  min-height: 100vh;
+}
+@font-face {
+  font-family: "CastTitleFont";
+  src: url("/ANE26/fonts/Saddlebag.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DescriptionTitleFont";
+  src: url("/ANE26/fonts/duality.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: linear-gradient(180deg, rgba(250,192,32,1) 0%, rgba(237,120,36,1) 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* GRID */
+#credits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 145px);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* CREDIT ICONS */
+.credit-icon {
+  position: relative;
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgb(0, 0, 0);
+
+  /* tilt + easing */
+  transform: rotate(var(--tilt));
+  transition: transform 0.25s ease;
+}
+
+.credit-icon:hover {
+  transform: rotate(var(--tilt)) scale(1.08);
+}
+
+.credit-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* name + overlay */
+.credit-name {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.45rem;
+  font-weight: 600;
+  color: #000;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.credit-icon .overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#tag-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+
+#top-logo {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+#top-logo img {
+  width: 180px;
+  max-width: 40vw;
+  height: auto;
+  display: inline-block;
+}
+
+.tag-button {
+  padding: 6px 10px;
+  background: #ce3611;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+  user-select: none;
+}
+
+.tag-button:hover {
+  background: #ff9b28;
+}
+
+.tag-button.active {
+  background: #ff6600;
+}
+
+#credits-grid .credit-icon {
+  will-change: transform;
+}
+
+
+
+/* CAST GRID */
+.cast-grid {
+  position: relative;
+  width: 1080px;
+  height: 540px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+    background: linear-gradient(
+    to top,
+    rgba(235, 22, 22, 0.45) 0%,
+    rgba(233, 23, 23, 0.25) 20%,
+    rgba(238, 79, 79, 0) 60%);
+
+}
+
+/* DIM all cast members when a hover zone is active */
+.cast-grid.dim .cast-icon {
+  filter: brightness(0.4);
+  transition: filter 0.25s ease, opacity 0.25s ease, transform 0.25s ease;
+}
+
+/* --- NEW MOTION SYSTEM --- */
+
+/* Default: all cast members sit 10px down */
+.cast-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: transform 0.25s ease, filter 0.25s ease, opacity 0.25s ease;
+}
+
+.cast-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Hovered (via JS) */
+.cast-icon.active {
+  transform: translateY(-10px) scale(1.05);
+  filter: brightness(1) !important;
+  opacity: 1;
+  z-index: 10;
+}
+
+
+/* Sharp rim light */
+.cast-icon.active img {
+  filter:
+    drop-shadow(0 0 1px rgba(255,255,255,1))
+    drop-shadow(0 0 2px rgba(255,255,255,0.9));
+}
+
+/* Hover zone (the only element that receives pointer events) */
+.cast-hover-zone {
+  position: absolute;
+  pointer-events: auto;
+  z-index: 20;
+}
+
+#cast-info-box {
+  width: 1080px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  background: rgba(235, 22, 22, 0.45);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+
+  color: white;
+  font-family: sans-serif;
+}
+
+.cast-info-left {
+  width: 65%;
+}
+
+.cast-info-right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#cast-info-image {
+  width: 85%;          /* smaller */
+  max-height: 260px;   /* optional cap */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#cast-info-name {
+  margin: 0;
+  font-size: 5rem;   /* bigger */
+  font-weight: 800;
+  text-align: center;
+
+  font-family: "CastTitleFont", sans-serif; /* your custom font */
+  letter-spacing: 1px;
+}
+#cast-header {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  margin: 30px 0 20px;
+  font-family: "CastTitleFont", sans-serif;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+#crew-header {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  margin: 30px 0 20px;
+  font-family: "CastTitleFont", sans-serif;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+#cast-info-description {
+  margin-top: 10px;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-family: "DescriptionTitleFont", sans-serif;
+  
+  text-align: center;
+}
+
+#cast-info-voicedby {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  opacity: 0.9;
+  
+  text-align: center;
+}

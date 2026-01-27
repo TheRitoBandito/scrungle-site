@@ -1,0 +1,481 @@
+{
+  "credits": [
+    {
+      "name": "Rito Bandito",
+      "link": "https://linktr.ee/ritobandito",
+      "tags": ["Director","Rendering","Illustrators","3D Animation","2D Animation","3D Modellers","Editors","Texture Artists","Compositors","Lighting","Concept","Graphic Design","Sound","Storyboard","Writer","Technical"],
+      "image": "/ANE26/CreditImages/creditImages.003.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "HappyRaccoons",
+      "link": "https://bsky.app/profile/happyraccoons.bsky.social",
+      "tags": ["Director","Rendering","Illustrators","3D Animation","2D Animation","3D Modellers","Editors","Texture Artists","Compositors","Lighting","Concept","Graphic Design","Sound","Storyboard","Technical"],
+      "image": "/ANE26/CreditImages/creditImages.005.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "DibblesArt",
+      "link": "https://dibblesart.carrd.co/",
+      "tags": ["Illustrators","Graphic Design"],
+      "image": "/ANE26/CreditImages/creditImages.015.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Astroma",
+      "link": "https://astroma.carrd.co/",
+      "tags": ["Producer","2D Animation","Character Design","Graphic Design","Concept","Rendering","Texture Artists"],
+      "image": "/ANE26/CreditImages/creditImages.008.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Candy",
+      "link": "https://paletazlv.carrd.co/",
+      "tags": ["3D Modellers","Texture Artists"],
+      "image": "/ANE26/CreditImages/creditImages.031.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Charter",
+      "link": "https://charter-art.carrd.co/",
+      "tags": ["3D Animation","Illustrators","Lighting","3D Modellers","Compositors","Technical"],
+      "image": "/ANE26/CreditImages/creditImages.012.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "TigersTooth",
+      "link": "https://www.dannyschmidt.me/tigers-tooth",
+      "tags": ["Graphic Design"],
+      "image": "/ANE26/CreditImages/creditImages.007.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "Darkwitt",
+      "link": "https://bsky.app/profile/darkwitt.bsky.social",
+      "tags": ["Sound"],
+      "image": "/ANE26/CreditImages/creditImages.014.jpg",
+      "leads": "True",
+      "position": "1",
+      "NSFW": "True"
+    },
+    {
+      "name": "Gantz",
+      "link": "https://www.artstation.com/tessobr",
+      "tags": ["3D Modellers","Texture Artists"],
+      "image": "/ANE26/CreditImages/creditImages.024.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Duhveed",
+      "link": "https://bsky.app/profile/duh--veed.bsky.social",
+      "tags": ["Character Design","3D Modellers","Texture Artists","Concept"],
+      "image": "/ANE26/CreditImages/creditImages.004.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Fig",
+      "link": "https://bsky.app/profile/figgus.bsky.social",
+      "tags": ["3D Animation","Lighting","Rendering","Compositors","Technical"],
+      "image": "/ANE26/CreditImages/creditImages.018.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Ike",
+      "link": "https://bsky.app/profile/ikesike.bsky.social",
+      "tags": ["Concept","3D Modellers","Texture Artists"],
+      "image": "/ANE26/CreditImages/creditImages.009.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Jackpot",
+      "link": "https://bsky.app/profile/sequenceerase.bsky.social",
+      "tags": ["2D Animation","3D Animation","Compositors","3D Modellers","Technical","Texture Artists","Compositors","Concept","Lighting",
+      "Rendering","Production Assistant"
+      ],
+      "image": "/ANE26/CreditImages/creditImages.001.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "Karma",
+      "link": "https://bsky.app/profile/karmachameileon.bsky.social",
+      "tags": ["3D Animation","Editors","Production Assistant"],
+      "image": "/ANE26/CreditImages/creditImages.033.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Kindly_Alligator",
+      "link": "https://kindygator.carrd.co/",
+      "tags": ["Character Design","Concept"],
+      "image": "/ANE26/CreditImages/creditImages.020.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "MagicalGirlCarl",
+      "link": "https://linktr.ee/magicalgirlcarl",
+      "tags": ["2D Animation","Concept","Graphic Design","Storyboard","Illustrators"],
+      "image": "/ANE26/CreditImages/creditImages.021.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "Mayo",
+      "link": "https://linktr.ee/MayoCube",
+      "tags": ["3D Modellers","Texture Artists"],
+      "image": "/ANE26/CreditImages/creditImages.025.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Mishey",
+      "link": "https://bsky.app/profile/mishey.xyz",
+      "tags": ["2D Animation","Technical","Character Design","Concept","Graphic Design","3D Modellers","Texture Artists","Illustrators"],
+      "image": "/ANE26/CreditImages/creditImages.016.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "Nasafrasa",
+      "link": "https://www.youtube.com/@nasafrasa",
+      "tags": ["3D Modellers"],
+      "image": "/ANE26/CreditImages/creditImages.030.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Xylious",
+      "link": "https://bsky.app/profile/xylious.bsky.social",
+      "tags": ["3D Animation","Rendering"],
+      "image": "/ANE26/CreditImages/creditImages.028.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Peach",
+      "link": "https://www.sadiesellars.com/",
+      "tags": ["3D Animation","Storyboard","Concept","Graphic Design","Character Design","Illustrators"],
+      "image": "/ANE26/CreditImages/creditImages.006.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "Pingo",
+      "link": "https://pingojamjam.carrd.co/",
+      "tags": ["Character Design"],
+      "image": "/ANE26/CreditImages/creditImages.002.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "ProkoCat",
+      "link": "https://bsky.app/profile/prokocat.bsky.social",
+      "tags": ["Sound"],
+      "image": "/ANE26/CreditImages/creditImages.035.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "Proto",
+      "link": "https://protowlf.com/about/",
+      "tags": ["Technical"],
+      "image": "/ANE26/CreditImages/creditImages.029.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Ramsker",
+      "link": "https://www.youtube.com/@Ramsker",
+      "tags": ["3D Animation"],
+      "image": "/ANE26/CreditImages/creditImages.011.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Robin/Sunny",
+      "link": "https://www.tiktok.com/@gabberswagger",
+      "tags": ["Production Assistant","2D Animation","Concept","Illustrators","3D Modellers","Texture Artists","Storyboard","3D Animation"],
+      "image": "/ANE26/CreditImages/creditImages.017.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Roel",
+      "link": "https://bsky.app/profile/werelemurs.bsky.social",
+      "tags": ["Storyboard","Concept","Character Design","Illustrators"],
+      "image": "/ANE26/CreditImages/creditImages.032.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Ropeszzz",
+      "link": "https://www.youtube.com/@Ropeszzz",
+      "tags": ["Concept","Illustrators","Graphic Design"],
+      "image": "/ANE26/CreditImages/creditImages.013.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Senti",
+      "link": "https://linktr.ee/senti.art",
+      "tags": ["Producer","Lighting","Compositors","3D Modellers","Texture Artists","Technical","Editors"],
+      "image": "/ANE26/CreditImages/creditImages.019.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "Spike",
+      "link": "https://parttimedragons.com/",
+      "tags": ["Writer"],
+      "image": "/ANE26/CreditImages/creditImages.034.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "ZennyDeer",
+      "link": "https://bsky.app/profile/zennydeer.bsky.social",
+      "tags": ["3D Modellers","Texture Artists","Lighting","Rendering","Compositors","Concept","Illustrators"],
+      "image": "/ANE26/CreditImages/creditImages.010.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Zera",
+      "link": "https://www.youtube.com/@zeramations",
+      "tags": ["3D Animation","2D Animation","Illustrators","Concept"],
+      "image": "/ANE26/CreditImages/creditImages.023.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Scrung McGull",
+      "link": "https://www.youtube.com/watch?v=meXMYfNKidM",
+      "tags": ["Best Boy"],
+      "image": "/ANE26/CreditImages/creditImages.022.jpg",
+      "leads": "False",
+      "position": "1"
+    }
+    
+  ],
+  "tagOrder":[
+    "Director",
+    "Producer",
+    "Production Assistant",
+    "Writer",
+    "Concept",
+    "Character Design",
+    "Graphic Design",
+    "Illustrators",
+    "Storyboard",
+
+    "3D Modellers",
+    "Texture Artists",
+    "Lighting",
+    "Technical",
+
+    "2D Animation",
+    "3D Animation",
+
+    "Compositors",
+    "Editors",
+    "Sound",
+    "Rendering",
+    "Best Boy"
+
+  ],
+  "cast": [
+      {
+        "name": "Copley",
+        "description": "The con's Main mascot! He is quite the goober!",
+        "orderDepth": 13,
+        "castCreditImage": "/ANE26/CastImages/CopleyImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.004.jpg",
+        "voicedBy": "Taylor Fernandez",
+        "voiceLink": "https://taylorfvoiceover.com/",
+        "hoverArea": {
+          "x": 0.45,
+          "y": 0.6,
+          "width": 0.1,
+          "height": 0.5}
+
+
+    },
+    {
+        "name": "Bucky",
+        "description": "Bucky is the safety cordinator",
+        "orderDepth": 5,
+        "castCreditImage": "/ANE26/CastImages/buckyImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.007.jpg",
+        "voicedBy": "Taylor Fernandez",
+        "voiceLink": "https://taylorfvoiceover.com/",
+        "hoverArea": {
+          "x": 0.25,
+          "y": 0.6,
+          "width": 0.1,
+          "height": 0.5}
+    }
+    ,
+    {
+        "name": "Cosmo",
+        "description": "Cosmo is the stupendiums wicked cool bird!",
+        "orderDepth": 3,
+        "castCreditImage": "/ANE26/CastImages/CosmoImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.008.jpg",
+        "voicedBy": "character owned by Stupendium",
+        "voiceLink": "https://stupendiumstore.com/",
+        "hoverArea": {
+          "x": 0.72,
+          "y": 0.5,
+          "width": 0.1,
+          "height": 0.5}
+    }
+    ,
+    {
+        "name": "Dream Copley",
+        "description": "Copley but in the ethereal realm",
+        "orderDepth": 4,
+        "castCreditImage": "/ANE26/CastImages/Dream CopleyImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.010.jpg",
+        "voicedBy": "The Void",
+        "voiceLink": "https://www.anthronewengland.com/",
+        "hoverArea": {
+          "x": 0.45,
+          "y": 0.1,
+          "width": 0.1,
+          "height": 0.25}
+    }
+    ,
+    {
+        "name": "Emmy",
+        "description": "Is the con's NSFW Mascot! She was our grand distractor in the animation",
+        "orderDepth": 8,
+        "castCreditImage": "/ANE26/CastImages/EmmyImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.005.jpg",
+        "voicedBy": "Vyn Vox",
+        "voiceLink": "https://vynvox.com/",
+        "hoverArea": {
+          "x": 0.62,
+          "y": 0.6,
+          "width": 0.1,
+          "height": 0.5}
+    }
+    ,
+    {
+        "name": "Fani",
+        "description": "Fani is the musical opponent for cosmo's Guest of Honor. She is the con's Transfem Mascot",
+        "orderDepth": 1,
+        "castCreditImage": "/ANE26/CastImages/FaniImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.010.jpg",
+        "voicedBy": "No voice for Fani!",
+        "voiceLink": "https://www.anthronewengland.com/",
+        "hoverArea": {
+          "x": 0.07,
+          "y": 0.5,
+          "width": 0.1,
+          "height": 0.5}
+    }
+    ,
+    {
+        "name": "Otis",
+        "description": "Otis is the con's TransMasc Rep! Big Con Dad energy for the animation he is the muscle!",
+        "orderDepth": 7,
+        "castCreditImage": "/ANE26/CastImages/OtisImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.001.jpg",
+        "voicedBy": "DarkWitt",
+        "voiceLink": "https://linktr.ee/darkwitt",
+        "hoverArea": {
+          "x": 0.53,
+          "y": 0.35,
+          "width": 0.15,
+          "height": 0.75}
+    }
+    ,
+    {
+        "name": "Quincy",
+        "description": "Quincy is Copley's Love Interest! She is a take no shit rancher in our animation",
+        "orderDepth": 8,
+        "castCreditImage": "/ANE26/CastImages/QuincyImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.003.jpg",
+        "voicedBy": "Abigail Adair",
+        "voiceLink": "https://abigailadair.com/",
+        "hoverArea": {
+          "x": 0.52,
+          "y": 0.6,
+          "width": 0.1,
+          "height": 0.5}
+    }
+    ,
+    {
+        "name": "Rito",
+        "description": "A menace. Truly a problem for everyone involved. He is not normally voiced by the legend of Sean Chiplock",
+        "orderDepth": 4,
+        "castCreditImage": "/ANE26/CastImages/ritoImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.006.jpg",
+        "voicedBy": "Sean Chiplock",
+        "voiceLink": "https://bsky.app/profile/sonicmega.bsky.social",
+        "hoverArea": {
+          "x": 0.15,
+          "y": 0.6,
+          "width": 0.12,
+          "height": 0.45}
+    }
+    ,
+    {
+        "name": "Roxbury",
+        "description": "Roxbury is the con's Non-Binary Rep. For our Animation They were our antagonist",
+        "orderDepth": 10,
+        "castCreditImage": "/ANE26/CastImages/RoxburyImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.002.jpg",
+        "voicedBy": "River North",
+        "voiceLink": "https://bsky.app/profile/did:plc:xb7x5rqzk2kcyhq5hnfuf7qc",
+        "hoverArea": {
+          "x": 0.35,
+          "y": 0.50,
+          "width": 0.1,
+          "height": 0.5}
+    }
+    ,
+    {
+        "name": "Semi Real Copley",
+        "description": "We really wanted to wow the crowd with a transition from cartoon to semi-real!",
+        "orderDepth": 1,
+        "castCreditImage": "/ANE26/CastImages/Semi-Real CopleyImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.004.jpg",
+        "voicedBy": "Taylor Fernandez",
+        "voiceLink": "https://taylorfvoiceover.com/",
+        "hoverArea": {
+          "x": 0.35,
+          "y": 0.3,
+          "width": 0.1,
+          "height": 0.35}
+    }
+    ,
+    {
+        "name": "Stag",
+        "description": "Stag is a Guest of Honor for 2026! They are owned by stag suits!",
+        "orderDepth": 12,
+        "castCreditImage": "/ANE26/CastImages/StagImage.png",
+        "castMemberImage": "/ANE26/CastMember/CastMembers.009.jpg",
+        "voicedBy": "Would be voiced by Stag!",
+        "voiceLink": "https://www.sleepystagsuits.com/",
+        "hoverArea": {
+          "x": 0.85,
+          "y": 0.5,
+          "width": 0.1,
+          "height": 0.5}
+    }
+  ]
+
+}
