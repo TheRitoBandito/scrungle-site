@@ -1,0 +1,105 @@
+{
+  "credits": [
+    {
+      "name": "Rito Bandito",
+      "link": "https://linktr.ee/ritobandito",
+      "tags": ["Director","2D Animation","3D Animation","3D Modellers","Editors","Texture Artists","Writer","Technical"],
+      "image": "/NA26/CreditImages/creditImages.003.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "HappyRaccoons",
+      "link": "https://bsky.app/profile/happyraccoons.bsky.social",
+      "tags": ["Director","2D Animation","3D Animation","Sound"],
+      "image": "/NA26/CreditImages/creditImages.005.jpg",
+      "leads": "True",
+      "position": "1"
+    },
+    {
+      "name": "Astroma",
+      "link": "https://astroma.carrd.co/",
+      "tags": ["Producer","3D Modellers","Writer"],
+      "image": "/NA26/CreditImages/creditImages.008.jpg",
+      "leads": "False",
+      "position": "1"
+    },
+    {
+      "name": "Senti",
+      "link": "https://linktr.ee/senti.art",
+      "tags": ["Producer","Lighting","Compositors","3D Modellers","Texture Artists","Technical","Editors"],
+      "image": "/NA26/CreditImages/creditImages.019.jpg",
+      "leads": "True",
+      "position": "1"
+    }
+  ],
+  "tagOrder": [
+    "Director",
+    "Producer",
+    "Production Assistant",
+    "Writer",
+    "Concept",
+    "Character Design",
+    "Graphic Design",
+    "Illustrators",
+    "Storyboard",
+    "3D Modellers",
+    "Texture Artists",
+    "Lighting",
+    "Technical",
+    "2D Animation",
+    "3D Animation",
+    "Compositors",
+    "Editors",
+    "Sound",
+    "Rendering",
+    "Best Boy"
+  ],
+  "cast": [
+    {
+      "name": "Bronx",
+      "description": "Bronx is one big sewer gater! He/Him, he is strong as all get out and he'll be there for ya",
+      "orderDepth": 5,
+      "castCreditImage": "/NA26/CastImages/Bronx.png",
+      "castMemberImage": "/NA26/CastMember/CastMembers.001.png",
+      "voicedBy": "CinderSlash",
+      "voiceLink": "https://linktr.ee/CinderSlash",
+      "hoverArea": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.33,
+        "height": 1.0
+      }
+    },
+    {
+      "name": "Brooklyn",
+      "description": "Brooklyn is one of the coolest pigeons you'll ever meet! They/Them!",
+      "orderDepth": 8,
+      "castCreditImage": "/NA26/CastImages/Brooklyn.png",
+      "castMemberImage": "/NA26/CastMember/CastMembers.002.jpg",
+      "voicedBy": "River North",
+      "voiceLink": "https://bsky.app/profile/rendoas.com",
+      "hoverArea": {
+        "x": 0.66,
+        "y": 0.0,
+        "width": 0.34,
+        "height": 1.0
+      }
+    },
+    {
+      "name": "Libby",
+      "description": "What a lovely tourist! You will LOVE her infectious energy! She/Her",
+      "orderDepth": 10,
+      "castCreditImage": "/NA26/CastImages/Libby.png",
+      "castMemberImage": "/NA26/CastMember/CastMembers.003.png",
+      "voicedBy": "ShibaShibs",
+      "voiceLink": "https://www.patreon.com/cw/ShibaShibs",
+      "hoverArea": {
+        "x": 0.33,
+        "y": 0.0,
+        "width": 0.33,
+        "height": 1.0
+      }
+    }
+  ]
+}
