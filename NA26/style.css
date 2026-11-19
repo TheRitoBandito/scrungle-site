@@ -130,17 +130,16 @@ body {
 /* CAST GRID */
 .cast-grid {
   position: relative;
-  width: 1080px;
-  height: 540px;
+  width: min(1080px, 100%);
+  aspect-ratio: 2 / 1;
   margin: 0 auto;
   border-radius: 12px;
   overflow: hidden;
-    background: linear-gradient(
+  background: linear-gradient(
     to top,
     rgba(235, 22, 22, 0.45) 0%,
     rgba(233, 23, 23, 0.25) 20%,
     rgba(238, 79, 79, 0) 60%);
-
 }
 
 /* DIM all cast members when a hover zone is active */
@@ -195,7 +194,7 @@ body {
 }
 
 #cast-info-box {
-  width: 1080px;
+  width: min(1080px, 100%);
   margin: 20px auto 0 auto;
   padding: 20px;
   display: flex;
@@ -208,6 +207,7 @@ body {
 
   color: white;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .cast-info-left {
@@ -296,4 +296,42 @@ body {
 
 .icon-row img:hover {
   transform: scale(1.15);
+}
+
+@media (max-width: 600px) {
+  #cast-header, #crew-header {
+    font-size: 2.5rem;
+  }
+
+  #cast-info-name {
+    font-size: 2.5rem;
+  }
+
+  #cast-info-description {
+    font-size: 1.1rem;
+  }
+
+  #cast-info-voicedby {
+    font-size: 1rem;
+  }
+
+  #cast-info-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cast-info-left {
+    width: 100%;
+  }
+
+  .cast-info-right {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #cast-info-image {
+    width: 60%;
+    max-height: none;
+  }
 }

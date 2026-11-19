@@ -120,35 +120,58 @@ fetch("credits.json")
 
     // --- HOVER + INFO BOX LOGIC ---
     const hoverZones = castGrid.querySelectorAll(".cast-hover-zone");
+    let activeIcon = null;
+
+    function activateCast(icon, castData) {
+      if (activeIcon && activeIcon !== icon) {
+        activeIcon.classList.remove("active");
+      }
+      castGrid.classList.add("dim");
+      icon.classList.add("active");
+      activeIcon = icon;
+
+      document.getElementById("cast-info-name").textContent = castData.name;
+      document.getElementById("cast-info-description").textContent = castData.description;
+      document.getElementById("cast-info-voicedby").textContent = `Voiced by: ${castData.voicedBy}`;
+      document.getElementById("cast-info-image").src = castData.castMemberImage;
+
+      icon.onclick = () => {
+        window.open(castData.voiceLink, "_blank");
+      };
+    }
+
+    function deactivateCast(icon) {
+      castGrid.classList.remove("dim");
+      icon.classList.remove("active");
+      activeIcon = null;
+    }
 
     hoverZones.forEach(zone => {
       const icon = zone.parentElement;
+      const castName = icon.querySelector("img").alt;
+      const castData = data.cast.find(c => c.name === castName);
 
-      zone.addEventListener("mouseenter", () => {
-        castGrid.classList.add("dim");
-        icon.classList.add("active");
-
-        // Find the cast data for this icon
-        const castName = icon.querySelector("img").alt;
-        const castData = data.cast.find(c => c.name === castName);
-
-        // Update info box
-        document.getElementById("cast-info-name").textContent = castData.name;
-        document.getElementById("cast-info-description").textContent = castData.description;
-
-        document.getElementById("cast-info-voicedby").textContent =
-        `Voiced by: ${castData.voicedBy}`;
-        document.getElementById("cast-info-image").src = castData.castMemberImage;
-
-        // Clicking the cast icon opens the voice actor link
-        icon.onclick = () => {
-          window.open(castData.voiceLink, "_blank");
-        };
-      });
-
+      // Desktop: hover
+      zone.addEventListener("mouseenter", () => activateCast(icon, castData));
       zone.addEventListener("mouseleave", () => {
-        castGrid.classList.remove("dim");
-        icon.classList.remove("active");
+        if (activeIcon === icon) deactivateCast(icon);
       });
+
+      // Touch: tap to activate, tap same again to deactivate
+      zone.addEventListener("touchstart", (e) => {
+        e.preventDefault();
+        if (activeIcon === icon) {
+          deactivateCast(icon);
+        } else {
+          activateCast(icon, castData);
+        }
+      }, { passive: false });
+    });
+
+    // Tap outside cast grid dismisses active
+    document.addEventListener("touchstart", (e) => {
+      if (activeIcon && !castGrid.contains(e.target)) {
+        deactivateCast(activeIcon);
+      }
     });
   });
