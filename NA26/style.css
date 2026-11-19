@@ -4,13 +4,13 @@ html, body {
 }
 @font-face {
   font-family: "CastTitleFont";
-  src: url("/na26/fonts/TonightFriend-Regular.otf") format("truetype");
+  src: url("/NA26/fonts/TonightFriend-Regular.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "DescriptionTitleFont";
-  src: url("/na26/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  src: url("/NA26/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
